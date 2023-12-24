@@ -26,6 +26,7 @@ const myCity = {
 // Accessing properties of an object using dot notation:
 console.log(myCity.city);  // Output: Duluth
 console.log(myCity.country); // Output: USA
+console.log(myCity);
 
 // Modifying properties of a 'const' object:
 myCity.city = 'New York'; // The property 'city' of the object 'myCity' is changed to 'New York'.
@@ -33,6 +34,10 @@ console.log(myCity.city); // Output: New York
 
 // Adding a new property to the object:
 myCity.state = 'NY'; // A new property 'state' is added to the 'myCity' object.
+console.log(myCity);
+
+// We can also delete properties from our object
+delete myCity.state;
 console.log(myCity);
 
 /*
@@ -44,3 +49,5 @@ console.log(myCity);
     The reference to the object remains constant, 
     but the contents of that object can be changed.
 */
+
+
