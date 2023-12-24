@@ -1,5 +1,5 @@
 /*
-UNIT 4 STATIC AND DYNAMIC TYPING
+UNIT 4: STATIC AND DYNAMIC TYPING
 
 JavaScript is a dynamic language, meaning you can 
 assign any value and change it into different: 
@@ -11,7 +11,7 @@ let a = 10; // number
 a = true; // boolean
 a = undefined; // undefined
 a = 'JavaScripts Rocks!'; // String
-console.log(a); // WHAT WILL PRINT OUT IN THE CONSOLE ??? 
+console.log(a); // WHAT WILL PRINT OUT IN THE CONSOLE ???
 
 
 /*

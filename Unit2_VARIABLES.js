@@ -1,5 +1,5 @@
 /* 
-UNIT 2 VARIABLES 
+UNIT 2: VARIABLES 
 Variables are used to store data that can be accessed and modified during the execution of a program.
 Naming conventions for variables:
     1. PascalCase - Often used for classes and constructor functions.
