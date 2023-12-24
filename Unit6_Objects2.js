@@ -1,6 +1,7 @@
 /*
     UNIT 6: OBJECTS PART 2
-    Besides using dot notation, JavaScript allows us to interact with object properties using square brackets ([]).
+    Besides using dot notation, JavaScript allows us 
+    to interact with object properties using square brackets [] - bracket notation.
     This is particularly useful in a few scenarios:
 */
 
