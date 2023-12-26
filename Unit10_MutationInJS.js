@@ -45,3 +45,37 @@ console.log(newUser); // Output: { name: 'Alec', age: 25 } (new object)
     Note: This method works well for simple objects but may not handle 
     complex objects with methods, Date objects, etc., correctly.
 */
+
+
+/// Using Object.assign() to create a shallow copy:
+const student = {
+    name: 'Mikita',
+    age: 25
+};
+const student2 = Object.assign({}, student); // Creates a shallow copy of 'student'
+student2.age = 30;
+console.log(student); // Output: { name: 'Mikita', age: 25 } (unchanged)
+console.log(student2); // Output: { name: 'Mikita', age: 30 } (new object)
+
+
+
+// Using Spread Operator to create a shallow copy:
+const student3 = {...student}; // Creates a shallow copy using spread operator
+student3.name = 'Max';
+console.log(student); // Output: { name: 'Mikita', age: 25 } (unchanged)
+console.log(student3); // Output: { name: 'Max', age: 25 } (new object)
+
+
+
+// Using Object.create() to create a new object with 'student' as a prototype:
+const student4 = Object.create(student); // 'student4' has 'student' as its prototype
+student4.name = 'Alex'; // Shadowing the 'name' property
+student4.age = 18;
+console.log(student); // Output: { name: 'Mikita', age: 25 } (unchanged)
+console.log(student4); // Output: { name: 'Alex', age: 18 } ('name' is shadowed, 'age' is inherited)
+
+/*
+    Each of these methods serves different purposes in object copying and mutation.
+    Object.assign() and the spread operator {...} create shallow copies,
+    while Object.create() sets up a prototype relationship.
+*/
