@@ -118,3 +118,7 @@ if (true) {
     let blockVar = "I am inside a block";
 }
 console.log(blockVar); // Error: blockVar is not defined outside the block
+
+
+// Also you can accces JavaScript feature called 'use strict'
+// However, dont rely on this feature.
