@@ -49,3 +49,17 @@ console.log(`The number of elements is: ${mixedArray.length}`);
 // We can access specific elements using their indices.
 console.log(mixedArray[2]); // Output: undefined
 console.log(mixedArray[0]); // Output: 1
+
+
+// We also can change elements in our arrays:
+// For example
+
+const exampleArray = [1,2,3,4,5];
+console.log(exampleArray);
+exampleArray[2] = 'Hello'; // accessing element we want to change
+console.log(exampleArray);
+// we can also add an element using .push 
+// .push adds element to the end of the current array 
+// WE WILL CIVER ARRAY METHODS MORE IN NEXT UNIT
+exampleArray.push('JavaScript');
+console.log(exampleArray);
