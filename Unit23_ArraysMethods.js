@@ -69,7 +69,7 @@ forEachArray.forEach((element) => {
 
 // Example of map: Creates a new array with the results of calling a provided function on every element.
 const mapArray = [1, 2, 3, 4, 5];
-const mappedArray = mapArray.map(element => {
+const mappedArray = mapArray.map((element) => {
     return element * 3;
 });
 console.log(mappedArray);
@@ -84,7 +84,7 @@ console.log(combinedArray);
 
 // Example of slice: Returns a portion of an array.
 const sliceArray = [1, 2, 3, 4, 5];
-const slicedArray = sliceArray.slice(1, 4);
+const slicedArray = sliceArray.slice(1, 4); 
 console.log(slicedArray);
 // Output: [2, 3, 4]
 
@@ -108,41 +108,50 @@ console.log(includes);
 
 // Example of filter: Creates a new array with all elements that pass the test implemented by the provided function.
 const filterArray = [1, 2, 3, 4, 5];
-const filteredArray = filterArray.filter(element => {
+const filteredArray = filterArray.filter((element) => {
     return element > 2;
 });
-console.log(filteredArray);
-// Output: [3, 4, 5]
+console.log(filteredArray); // Output: [3, 4, 5]
+
 
 // Example of reduce: Applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
+// Array to be reduced
 const reduceArray = [1, 2, 3, 4, 5];
+
+// Using the reduce method to accumulate values
+// The second argument (0) is the initial value for the accumulator
 const reducedValue = reduceArray.reduce((accumulator, element) => {
+    // The accumulator is a variable that accumulates the result
+    // The element is the current element being processed in the array
+    // The callback function adds each element of the array to the accumulator
     return accumulator + element;
 }, 0);
-console.log(reducedValue);
-// Output: 15
+
+// Output the final result
+console.log(reducedValue); // Output: 15
+
 
 // Example of find: Returns the first element in the array that satisfies the provided testing function.
 const findArray = [1, 2, 3, 4, 5];
-const found = findArray.find(element => element > 2);
-console.log(found);
-// Output: 3
+const found = findArray.find((element) => element > 2);
+console.log(found); // Output: 3
+
 
 // Example of findIndex: Returns the index of the first element in the array that satisfies the provided testing function, or -1 if none is found.
 const findIndexArray = [1, 2, 3, 4, 5];
-const foundIndex = findIndexArray.findIndex(element => element > 2);
-console.log(foundIndex);
-// Output: 2
+const foundIndex = findIndexArray.findIndex((element) => element > 2);
+console.log(foundIndex); // Output: 2
+
 
 // Example of some: Tests whether at least one element in the array passes the test implemented by the provided function.
 const someArray = [1, 2, 3, 4, 5];
-const hasEven = someArray.some(element => element % 2 === 0);
-console.log(hasEven);
-// Output: true
+const hasEven = someArray.some((element) => element % 2 === 0);
+console.log(hasEven); // Output: true
+
 
 // Example of every: Tests whether all elements in the array pass the test implemented by the provided function.
 const everyArray = [2, 4, 6, 8, 10];
-const allEven = everyArray.every(element => element % 2 === 0);
+const allEven = everyArray.every((element) => element % 2 === 0);
 console.log(allEven);
 // Output: true
 
@@ -165,8 +174,15 @@ console.log(joinedString);
 // Output: 'Hello World !'
 
 // Example of splice: Adds or removes elements from an array.
+// Array to be modified using the splice method
 const spliceArray = [1, 2, 3, 4, 5];
+
+// Using the splice method to add or remove elements
+// Arguments: (start index, delete count, elements to add)
+// In this example, starting from index 2, remove 1 element, and add 'a' and 'b'
 spliceArray.splice(2, 1, 'a', 'b');
+
+// Output the modified array
 console.log(spliceArray);
 // Output: [1, 2, 'a', 'b', 4, 5]
 
@@ -178,7 +194,13 @@ console.log(isArrayResult);
 
 // Example of fill: Fills all the elements of an array from a start index to an end index with a static value.
 const fillArray = [1, 2, 3, 4, 5];
+
+// Using the fill method to fill elements with a static value
+// Arguments: (value to fill, start index, end index)
+// In this example, fill with 0 starting from index 1 (inclusive) to index 3 (exclusive)
 fillArray.fill(0, 1, 3);
+
+// Output the modified array
 console.log(fillArray);
 // Output: [1, 0, 0, 4, 5]
 
