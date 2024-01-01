@@ -66,6 +66,13 @@ forEachArray.forEach((element) => {
     console.log(element * 2);
 });
 // Output: 2, 4, 6, 8, 10
+/* 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+    PLEASE NOTICE THAT THIS METHOD DOESNT RETURN ANY VALUES
+    IF you want to return value and store it in variable or an array 
+    CHECK MAP ARRAY FUNCTION BELOW
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/ 
 
 // Example of map: Creates a new array with the results of calling a provided function on every element.
 const mapArray = [1, 2, 3, 4, 5];
