@@ -112,3 +112,24 @@ const [firstColor, secondColor, thirdColor] = colors; // Please notice that we d
 console.log(firstColor);  // Output: 'red'
 console.log(secondColor); // Output: 'green'
 console.log(thirdColor);  // Output: 'blue'
+
+/*
+    Another example
+    Where we destructing in our functions:
+*/
+
+const userProfile = {
+    userName: 'Max',
+    postsQty: 1,
+    hasSignedIn: true,
+}
+
+const userInfo = ({userName, postsQty}) => {
+    if(!postsQty) {
+        console.log(`User ${userName} has no posts!`);
+    } else {
+        console.log(`User ${userName} has ${postsQty} posts`);
+    }
+}
+
+userInfo(userProfile); // Output: User Max has 1 posts
