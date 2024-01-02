@@ -103,11 +103,10 @@ console.log(hasVerifiedU3);    // Output: true
 /*
     Arrays also can  be destructured:
 */
-
 const colors = ['red', 'green', 'blue'];
 
 // Destructuring assignment
-const [firstColor, secondColor, thirdColor] = colors;
+const [firstColor, secondColor, thirdColor] = colors; // Please notice that we destruct arrays, we use [] square brackets 
 
 // Variables now hold the values
 console.log(firstColor);  // Output: 'red'
