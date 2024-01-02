@@ -75,10 +75,9 @@ switch (dayOfWeek) {
 */
 
 const isRaining = true; 
-//                     condition       expression 1        expression 2
+//                     condition   expression 1(true)  expression 2(else - false)
 const weatherMessage = isRaining ? 'Bring an umbrella' : 'Enjoy the day';
 console.log(weatherMessage);
-
 
 /*
     EXAMPLE OF USING CONDITIONAL STATEMENTS IN FUNCTIONS:
