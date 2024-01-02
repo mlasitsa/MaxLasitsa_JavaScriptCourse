@@ -74,9 +74,9 @@ switch (dayOfWeek) {
     The final message is then logged to the console
 */
 
-const isRaining = true;
+const isRaining = true; 
+//                     condition       expression 1        expression 2
 const weatherMessage = isRaining ? 'Bring an umbrella' : 'Enjoy the day';
-
 console.log(weatherMessage);
 
 
