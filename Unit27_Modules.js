@@ -43,3 +43,41 @@ printMyName(); // Output: Max. As I said this is just an example and the code wo
 // moduleTwo.mjs
 
 // Note: It is very recommended to use import in the begging of programming(on top)
+
+
+/*
+    What if we need to import more than one variables ?
+    The logic is pretty much same 
+*/
+
+// Lets say again you have a file called moduleOne.js
+
+const one = 1;
+const two = 'two';
+
+export {
+    one,
+    two
+}
+
+// In the moduleTwo.js where you need the acces you would juts have:
+
+import {
+    one, 
+    two 
+} from './moduleOne.js'
+
+// Note! This is not an onject creation. This are export/import methods
+
+// ATTENTION! Since we are not importing using default method 
+// NAME OF THE VARIABLES WE ARE TRYING TO EXPORT/IMPORT HAVE TO BE THE SAME 
+// !!! HOWEVER !!!
+// Sometimes we have scenarious when we need to have a different name for the variable 
+// we are trying to import 
+// In that case we can do it like this: 
+
+import {
+    one as numOne, 
+    two as numTwo 
+} from './moduleOne.js'
+
