@@ -34,5 +34,6 @@ export default myName;
 // Our moduleTwo.js, so in the 
 // moduleTwo.js we would put:
 
-import printMyName from './moduleOne.js'  // here in the ' ' we set the directory(location) of the file ./folder/fileName
+import printMyName from './moduleOne.js'  
+// where  printMyName is the name AND the ' ' is a directory(location) of the file ./folder/fileName
 printMyName(); // Output: Max. As I said this is just an example and the code won't run here 
