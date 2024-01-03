@@ -37,3 +37,9 @@ export default myName;
 import printMyName from './moduleOne.js'  
 // where  printMyName is the name AND the ' ' is a directory(location) of the file ./folder/fileName
 printMyName(); // Output: Max. As I said this is just an example and the code won't run here 
+
+// Note: if you will be testing using Node.js then your files should have .mjs format 
+// moduleOne.mjs
+// moduleTwo.mjs
+
+// Note: It is very recommended to use import in the begging of programming(on top)
