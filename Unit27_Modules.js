@@ -59,15 +59,17 @@ export {
     one,
     two
 }
+// It is reccommended to export your variables/functions at the BOTTOM 
+
+
 
 // In the moduleTwo.js where you need the acces you would juts have:
-
 import {
     one, 
     two 
 } from './moduleOne.js'
 
-// Note! This is not an onject creation. This are export/import methods
+// Note! This is not an object creation. This are export/import methods
 
 // ATTENTION! Since we are not importing using default method 
 // NAME OF THE VARIABLES WE ARE TRYING TO EXPORT/IMPORT HAVE TO BE THE SAME 
