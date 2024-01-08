@@ -4,7 +4,7 @@ Welcome to the MaxLasitsa JavaScript Course repository! This repository contains
 
 ## Description 
 
-I have made this mini-course/cheat sheet so everyone who wants to learn JavaScript can use this resource. I have included explanations as well as examples that you can run and see how specific parts of code are working. I am still a studnet(sophomore) so there is a chance that some parts might be unclear. In that case please feel free to contact me. I am also will be trying to update this course and add more units. I reccomend using Visual Studio Code.
+I have made this mini-course/cheat sheet so everyone who wants to learn JavaScript can use this resource. I have included explanations as well as examples that you can run and see how specific parts of code are working. I am still a studnet(sophomore) so there is a chance that some parts might be unclear. In that case please feel free to contact me. I am also will be trying to update this course and add more units. I recommend using Visual Studio Code.
 
 ## Table of Contents
 
