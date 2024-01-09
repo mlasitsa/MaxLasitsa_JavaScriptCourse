@@ -1,6 +1,6 @@
 # MaxLasitsa JavaScript Course
 
-Welcome to the MaxLasitsa JavaScript Course repository! This repository contains code examples and explanations covering various JavaScript topics !!!
+Welcome to JavaScript Course repository! This repository contains code examples and explanations covering various JavaScript topics !!!
 
 ## Description 
 
