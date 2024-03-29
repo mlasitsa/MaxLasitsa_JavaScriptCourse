@@ -40,8 +40,9 @@ I have made this mini-course/cheat sheet so everyone who wants to learn JavaScri
 - [Unit 30: Promises](https://github.com/mlasitsa/MaxLasitsa_JavaScriptCourse/blob/main/Unit30_Promises.js)
 - [Unit 31: Async/Await](https://github.com/mlasitsa/MaxLasitsa_JavaScriptCourse/blob/main/Unit31_AsyncAwait.js)
 
-## Contact Me:
-[LinkedIn](https://www.linkedin.com/in/maxlasitsa/)
+## About Me:
+- [LinkedIn](https://www.linkedin.com/in/maxlasitsa/)
+- [Portfolio](https://celadon-squirrel-2df08d.netlify.app/)
 
 ## Installation
 
